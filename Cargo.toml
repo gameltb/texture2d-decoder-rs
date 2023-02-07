@@ -1,0 +1,15 @@
+[package]
+name = "texture2d-decoder-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["gameltb <gamegccltb@gmail.com>"]
+license = "MIT/Apache-2.0"
+description = """
+Bindings to Perfare's Texture2DDecoder
+"""
+categories = ["api-bindings"]
+
+[workspace]
+
+[dependencies]
+texture2d-decoder-sys = { version = "0.1.0", path = "texture2d-decoder-sys" }
